@@ -4,7 +4,7 @@
   "description": "Reusable AI agent skills following the SKILL.md standard",
   "license": "MIT",
   "lastUpdated": "2026-11-01",
-  "totalSkills": 100,
+  "totalSkills": 101,
   "categories": [
     {
       "name": "Development",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Data",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Security",
@@ -1923,6 +1923,21 @@
         "validation",
         "data",
         "mcp"
+      ]
+    },
+    {
+      "id": "datacircle",
+      "name": "Datacircle",
+      "source": "waynehamadi/datacircle",
+      "category": "Data",
+      "description": "Compare and price GTM APIs from one file of every plan.",
+      "install": "npx skills add waynehamadi/datacircle --skill datacircle",
+      "license": "MIT",
+      "tags": [
+        "api",
+        "pricing",
+        "gtm",
+        "data"
       ]
     }
   ]
